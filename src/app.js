@@ -134,7 +134,7 @@ function startScrolling(startInterval) {
   for (let i = startInterval; i < 90; i++) {
     timers.push(setTimeout(function timer() {
       execute(i);
-    }, (i - startInterval) * 500));
+    }, (i - startInterval) * 100));
   }
 }
 
