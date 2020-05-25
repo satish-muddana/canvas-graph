@@ -1,0 +1,27 @@
+.graph {
+  width: 960px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.buttonDiv {
+  margin: 20px;
+}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px 2px;
+  cursor: pointer;
+}
+
+.playBtn {background-color: #008CBA;} /* Blue */
+.stopBtn {background-color: #f44336;} /* Red */ 
+.grayBtn {background-color: #e7e7e7; color: black;} /* Gray */ 
+.button5 {background-color: #555555;} /* Black */
